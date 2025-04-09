@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     recognition.continuous = true;
     recognition.interimResults = true;
-    recognition.lang = 'en-US'; // english
+    recognition.lang = 'pt-BR'; // english
 
 
     recognition.onresult = (event) => {
